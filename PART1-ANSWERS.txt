@@ -1,0 +1,17 @@
+COMPONENT STRUCTURE
+* Top Navigation Component
+   - This is for the top menu. This emits the page/state that the wants to go with.
+
+* Search Panel Component
+   - This is for the searching the speech records. Emits keyword that the user wants to search.
+
+* Side Panel Component
+   - This is for the list of created speech. Shows the available list came from the application parent component and emits the active selected record.
+
+* Form Container Component
+   - This holds the form inputs of the application. And emits the object of saved record into the parent.
+
+* App component
+   - This is the parent component that will hold all of this components together and be the responsible for all of the data and logic formulation.
+
+

@@ -1,0 +1,6 @@
+<ul class="list-group" *ngIf="speechList else noRecord">
+  <li class="list-group-item" *ngFor="let speeches of speechContainer; let i = index">
+    <button [attr.disabled]="this.formState === 1 ? true : null" (click)="selectedSpeech(speeches.id)"> Speech {{ speeches.id }} </button>
+  </li>
+</ul>
+<ng-template #noRecord> No record available </ng-template>
